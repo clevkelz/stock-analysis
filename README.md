@@ -45,11 +45,21 @@ The two scripts returned the same values for the analysis; however, the formatti
 
 ![image](https://user-images.githubusercontent.com/106293233/174421094-3f8c5d07-62fb-425b-8dac-ed803885010b.png)
 
+## Summary
 
+### ** Advantages and Disadvantages of Refactoring Code for this Specific Analysis**
+The advanages of refactoring code for this specific analysis are described above.  The two disadvantages were that it took a considerably longer time for me (as new to this) to add onto the existing code and that there was quite a bit of repetition between the two codes. If this were a "real world" scenario, refactoring and rewriting a new code with similar, if not the same, results would probably not be worth the time.
 
+### **Advantages and Disadvantages of Refactoring Code in General**
 
+Advantages for refactoring code include:
+- Using pieces of code from either one or various scripts with which you are already familiar can save time.
+- Updating existing code for stale or outdated items (for example, the inputs for the code may have changed or may no longer be available).
+- Finding ways to make existing code more efficient, especially as a coder learn faster ways of doing things.
 
-
+Disadvantages of refactoring code
+- Potentially introducing errors into a script, especially in the code was stable and working properly before the changes.
+- Spending time and money, especially when resources are tight and could be put to better use, especially if starting from scratch is more beneficial in the long term.
 
 
 
