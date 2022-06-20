@@ -38,7 +38,12 @@ _Running Time for Original Script - 2017_
 _Running Time for Updated Script - 2017_
 ![image](https://user-images.githubusercontent.com/106293233/174420216-a1474c3e-ee72-4cef-8585-8992c43deff6.png)
 
-INCLUDE 2018 Numbers!
+_Running Time for Original Script - 2018_
+![image](https://user-images.githubusercontent.com/106293233/174686214-329db055-c951-4443-95f3-88a5e314d991.png)
+
+_Running Time for Updated Script - 2018_
+![image](https://user-images.githubusercontent.com/106293233/174686368-1931add5-b872-4c73-95f8-05423b347738.png)
+
 
 ### Formatting
 The two scripts returned the same values for the analysis; however, the formatting on the results was in a different subroutine in the original spreadsheet.  An additional macro had to be run to place commas in the values in the Total Daily Volume column, to format the Returns column as a percent rather a long decimal, and to highlight positive returns in green and negative returns in red.  The updated script included the formatting in the same macro which negated the need to run two separate macros to obtain the same results in the refactored code.  
