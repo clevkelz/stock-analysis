@@ -1,6 +1,6 @@
 # Using Visual Basic (VBA) to Evaluate Green Companies Stock Returns and Volume for 2017 and 2018
 ## Overview of the Project
-The return on stoc from 2017 and 2018 for the following 12 green energy (also referred to as "Green Companies") was reviewed to show the differences in daily volume and return among these companies.  This analysis was also performed to show how VBA can be used to analyze and make conclusions from a large dataset, in this case, daily stock prices for 12 Green Companies over the span of two years.
+Stocks from 2017 and 2018 for the following 12 green energy (also referred to as "Green Companies") were reviewed to show the differences in daily volume and return among these companies.  This analysis was also performed to show how VBA can be used to analyze and make conclusions from a large dataset, in this case, daily stock prices for 12 Green Companies over the span of two years.
 
 |Company Name|Stock Ticker|Website|
 |----|-----|-----|
@@ -14,7 +14,7 @@ The return on stoc from 2017 and 2018 for the following 12 green energy (also re
 |Sunrun Inc|RUN|https://www.sunrun.com/|
 |Solaredge Technologies Inc|SEDG|https://www.solaredge.com/us/|
 |SunPower Corporation|SPWR|https://us.sunpower.com/|
-|TerraForm Power|TERP|https://www.terraform.com/|
+|TerraForm Power|TERP|Inactive - https://www.terraform.com/|
 |Vivint Solar Inc|VSLR|No longer in existence - https://www.nytimes.com/2020/07/06/business/energy-environment/sunrun-vivint-solar.html|
 
 ## Results
@@ -32,14 +32,16 @@ The stock market experienced large losses in the last quarter of 2018, which is 
 ### Running Time
 The original analysis was completed in the file called "green_stocks.xlsm" - https://github.com/clevkelz/stock-analysis/blob/main/green_stocks.xlsm - while the refactored code is inthe file "VBA_Challenge.xlsm" - https://github.com/clevkelz/stock-analysis/blob/main/VBA_Challenge.xlsm.  Under similar operating conditions.   the running time for the updated scipt was slighly faster than that for the original script.  
 
-_Running Time for Original Script_
+_Running Time for Original Script - 2017_
 ![image](https://user-images.githubusercontent.com/106293233/174420050-8828169f-96a6-46e8-aa6d-d4eb352029d5.png)
 
-_Running Time for Updated Script_
+_Running Time for Updated Script - 2017_
 ![image](https://user-images.githubusercontent.com/106293233/174420216-a1474c3e-ee72-4cef-8585-8992c43deff6.png)
 
+INCLUDE 2018 Numbers!
+
 ### Formatting
-The two scripts returned the same values for the analysis; however, the formatting on the results was in a different subroutine in the original spreadsheet.  An additional macro had to be run to commas in the values in the Total Daily Volume column, to format the Returns column as a percent rather a long decimal, and to highlight positive returns in green and negative returns in red.  The updated script included the formatting in the same macro which negated the need to run two separate macros to get the same results in the refactored code.  
+The two scripts returned the same values for the analysis; however, the formatting on the results was in a different subroutine in the original spreadsheet.  An additional macro had to be run to place commas in the values in the Total Daily Volume column, to format the Returns column as a percent rather a long decimal, and to highlight positive returns in green and negative returns in red.  The updated script included the formatting in the same macro which negated the need to run two separate macros to obtain the same results in the refactored code.  
 
 ![image](https://user-images.githubusercontent.com/106293233/174420923-cc332a90-2190-4440-a9ec-8c9df7600be7.png)
 
@@ -47,19 +49,19 @@ The two scripts returned the same values for the analysis; however, the formatti
 
 ## Summary
 
-### ** Advantages and Disadvantages of Refactoring Code for this Specific Analysis**
-The advanages of refactoring code for this specific analysis are described above.  The two disadvantages were that it took a considerably longer time for me (as new to this) to add onto the existing code and that there was quite a bit of repetition between the two codes. If this were a "real world" scenario, refactoring and rewriting a new code with similar, if not the same, results would probably not be worth the time.
+### Advantages and Disadvantages of Refactoring Code for this Specific Analysis
+The advanages of refactoring code for this specific analysis are described above.  The two disadvantages were that it took a considerably longer time for me (as new to this) to add onto the existing code and that there was quite a bit of repetition between the two codes. If this were a "real world" scenario, refactoring the code to obtain similar, if not the same, results might not have been worth the extra effort.
 
 ### **Advantages and Disadvantages of Refactoring Code in General**
 
 Advantages for refactoring code include:
-- Using pieces of code from either one or various scripts with which you are already familiar can save time.
+- Using pieces of code from either one or various scripts with which the coder with which is familiar can save time.
 - Updating existing code for stale or outdated items (for example, the inputs for the code may have changed or may no longer be available).
-- Finding ways to make existing code more efficient, especially as a coder learn faster ways of doing things.
+- Finding ways to make existing code more efficient, especially as coders producing the script learn faster ways of doing things.
 
 Disadvantages of refactoring code
 - Potentially introducing errors into a script, especially in the code was stable and working properly before the changes.
-- Spending time and money, especially when resources are tight and could be put to better use, especially if starting from scratch is more beneficial in the long term.
+- Spending time and money, especially when resources are tight and could be put to better use and if starting from scratch is more beneficial in the long term.
 
 
 
